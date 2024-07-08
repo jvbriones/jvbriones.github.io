@@ -1,0 +1,8 @@
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+celeste:
+  label: Celeste
+  permalink: /celeste
+  description: Celeste
