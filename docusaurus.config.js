@@ -167,7 +167,7 @@ const config = {
         //   },
         // ],
         // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-        copyright: `Personal site licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>. With ❤️ and ☕.`,
+        copyright: `Licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>. With ❤️ and ☕.`,
       },
       prism: {
         theme: prismThemes.github,
