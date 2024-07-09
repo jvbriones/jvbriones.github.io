@@ -1,6 +1,9 @@
 # jvbriones.github.io
 
-Personal site. Built using [Docusaurus](https://docusaurus.io/). Published at <https://jvbriones.github.io/>
+Personal site published at <https://jvbriones.github.io/>
+
+Built using [Docusaurus](https://docusaurus.io/).
+Animated rabbit credit to <https://codepen.io/sondering/pen/EVJBMq>
 
 ## 🛠️ How to operate
 

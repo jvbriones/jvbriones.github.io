@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 // import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import '../css/rabbit.css';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -13,14 +14,9 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          jvbriones
+          <p>@jvbriones</p>
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue#about-merge-queues">
-            GitHub merge queues docu - 5min ⏱️
-          </Link>
-        </div> */}
       </div>
     </header>
   );
@@ -31,10 +27,13 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Description will go into a meta tag in <head />">
+      description="jvbriones personal site">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
+        <div className="totoro-wrapper">
+          <div className="totoro"></div>
+        </div>
       </main>
     </Layout>
   );
