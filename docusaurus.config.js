@@ -166,8 +166,8 @@ const config = {
         //     ],
         //   },
         // ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-        copyright: `Licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>. With ❤️ and ☕.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus, ❤️ and ☕.`,
+        copyright: `Personal site | <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>.`,
       },
       prism: {
         theme: prismThemes.github,

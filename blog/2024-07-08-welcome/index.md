@@ -7,4 +7,4 @@ tags: [hello, celeste]
 
 just a simple welcome post to get things started.
 
-![Celeste](./celeste.png)
+![Celeste](./celeste.png "celeste")
