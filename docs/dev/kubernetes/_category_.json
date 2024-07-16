@@ -1,6 +1,6 @@
 {
-  "label": "Git",
-  "position": 20,
+  "label": "Kubernetes",
+  "position": 50,
   "link": {
     "type": "generated-index"
   }

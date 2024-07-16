@@ -1,8 +1,8 @@
 
 body .totoro-wrapper {
   position: absolute;
-  top: 80%;
-  animation: 10s walkcycle steps(1) infinite;
+  top: 78%;
+  animation: 8s walkcycle steps(1) infinite;
 }
 body .totoro {
   width: 1px;
@@ -11,7 +11,7 @@ body .totoro {
   position: relative;
   left: -60px;
   top: -72px;
-  animation:10s totoro steps(1) infinite;
+  animation:8s totoro steps(1) 1;
 }
 @keyframes walkcycle {
   0% {

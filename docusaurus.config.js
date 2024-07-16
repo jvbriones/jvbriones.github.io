@@ -10,7 +10,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'jvbriones.github.io',
-  tagline: 'Personal site',
+  tagline: 'Personal notes',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -166,8 +166,8 @@ const config = {
         //     ],
         //   },
         // ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-        copyright: `Licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>. With ❤️ and ☕.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus, ❤️ and ☕.`,
+        copyright: `Personal notes | <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>.`,
       },
       prism: {
         theme: prismThemes.github,
