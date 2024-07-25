@@ -92,9 +92,9 @@ const config = {
       //   isCloseable: false,
       // },
       colorMode: {
-        defaultMode: "light",
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: '@jvbriones',
@@ -115,7 +115,7 @@ const config = {
             position: 'left',
             label: 'Guitar',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

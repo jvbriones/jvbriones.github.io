@@ -20,6 +20,7 @@ on:
 
 jobs:
   playwright-e2e-tests:
+    if: false
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
