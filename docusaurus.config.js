@@ -52,16 +52,16 @@ const config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   showLastUpdateTime: true,
-        //   blogSidebarTitle: 'All posts',
-        //   blogSidebarCount: 'ALL',
+        blog: {
+          showReadingTime: true,
+          showLastUpdateTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -92,9 +92,9 @@ const config = {
       //   isCloseable: false,
       // },
       colorMode: {
-        defaultMode: "light",
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: '@jvbriones',
@@ -115,7 +115,7 @@ const config = {
             position: 'left',
             label: 'Guitar',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
