@@ -28,7 +28,7 @@ The single systems components like a micro-service API can as well be tested, to
 - **User satisfaction (APDEX index)**
 Apdex numerically scores the level of satisfaction of an end user based on application responsiveness by calculating the degree to which user expectations compare to performance in a fractional 0 (no users satisfied) to 1 (all users satisfied) scale.
 
-Note that JMeter cannot execute javascript code since is not a browser. That's why we can better use tools like [webpagetest](www.webpagetest.org) to have an overview of what a real e2e user request time implies, where the backend could be the 25% and the front the 75% (size of the content matters). In such cases, the front is what needs to be optimized. A very good video about it [www.youtube.com/watch?v=nOZYQto7Vcg]
+Note that JMeter cannot execute javascript code since is not a browser. That's why we can better use tools like [www.webpagetest.org] to have an overview of what a real e2e user request time implies, where the backend could be the 25% and the front the 75% (size of the content matters). In such cases, the front is what needs to be optimized. A very good video about it [www.youtube.com/watch?v=nOZYQto7Vcg]
 
 ### Workload estimation
 
