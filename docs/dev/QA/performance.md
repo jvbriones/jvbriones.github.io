@@ -32,7 +32,7 @@ Note that JMeter cannot execute javascript code since is not a browser. That's w
 
 ### Workload estimation
 
-For example, if there are 5 millions of users of the SUT, we need to know how many users we need to replicate in our tests to have a proper population and estimation to have a confidence of 99% of the results, which gives us a workload in our test of about 16k users (more or less explained. See this video for more info [www.youtube.com/watch?v=X4NVS1kDoMQ]
+For example, if there are 5 millions of users of the SUT, we need to know how many users we need to replicate in our tests to have a proper population and estimation to have a confidence of 99% of the results, which gives us a workload in our test of about 16k users (more or less explained). See this video for more info [www.youtube.com/watch?v=X4NVS1kDoMQ]
 
 There are tools like [www.raosoft.com/samplesize.html] that help us to compute those values.
 
