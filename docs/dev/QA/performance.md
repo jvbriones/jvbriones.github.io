@@ -12,7 +12,7 @@ These are non-functional tests, therefore we should not check **what** the servi
 
 The testing environment should be as much similar to prod as possible, scale compatible, caches, and isolated for the tests to avoid noise.
 
-We need to identify the testing scenario, since there is a difference between user experience based scenarios and benchmarking of sevices. For example, is not the same to simulate a user purchase (which will perform different searches previously, and will have a `think` time) than to know how many purchases simultaneously can handle the SUT (system under test). To stablish a proper pattern for the request arrivals of the user scenarios, it's necessary to know the poisson distribution lambda (see this video <https://www.youtube.com/watch?v=X4NVS1kDoMQ>)
+We need to identify the testing scenario, since there is a difference between user experience based scenarios and benchmarking of sevices. For example, is not the same to simulate a user purchase (which will perform different searches previously, and will have a `think` time) than to know how many purchases simultaneously can handle the SUT (system under test). To stablish a proper pattern for the request arrivals of the user scenarios, it's necessary to know the poisson distribution lambda - see this video [www.youtube.com/watch?v=X4NVS1kDoMQ]
 
 For designing the workload and the scenario, take into the account the number of users vs the requests per user. Each Thread of a ThreadGroup defines a user's session, i.e. the user's actions. You can record from the browser or postman the user actions and then clean up what is needed to prepare all the http requests. As well, try to reduce the asserts as much as possible.
 
@@ -28,13 +28,13 @@ The single systems components like a micro-service API can as well be tested, to
 - **User satisfaction (APDEX index)**
 Apdex numerically scores the level of satisfaction of an end user based on application responsiveness by calculating the degree to which user expectations compare to performance in a fractional 0 (no users satisfied) to 1 (all users satisfied) scale.
 
-Note that JMeter cannot execute javascript code since is not a browser. That's why we can better use tools like [webpagetest](www.webpagetest.org) to have an overview of what a real e2e user request time implies, where the backend could be the 25% and the front the 75% (size of the content matters). In such cases, the front is what needs to be optimized. A very good video about it (<https://www.youtube.com/watch?v=nOZYQto7Vcg>)
+Note that JMeter cannot execute javascript code since is not a browser. That's why we can better use tools like [webpagetest](www.webpagetest.org) to have an overview of what a real e2e user request time implies, where the backend could be the 25% and the front the 75% (size of the content matters). In such cases, the front is what needs to be optimized. A very good video about it [www.youtube.com/watch?v=nOZYQto7Vcg]
 
 ### Workload estimation
 
-For example, if there are 5 millions of users of the SUT, we need to know how many users we need to replicate in our tests to have a proper population and estimation to have a confidence of 99% of the results, which gives us a workload in our test of about 16k users (more or less explained. See this video for more info <https://www.youtube.com/watch?v=X4NVS1kDoMQ>)
+For example, if there are 5 millions of users of the SUT, we need to know how many users we need to replicate in our tests to have a proper population and estimation to have a confidence of 99% of the results, which gives us a workload in our test of about 16k users (more or less explained. See this video for more info [www.youtube.com/watch?v=X4NVS1kDoMQ]
 
-There are tools like <http://www.raosoft.com/samplesize.html> that help us to compute those values.
+There are tools like [www.raosoft.com/samplesize.html] that help us to compute those values.
 
 ### Kind of tests
 
