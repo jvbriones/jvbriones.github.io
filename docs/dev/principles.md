@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Principles
 
+Building good software is all about **maintaining** rather than creating. Writing quality code is more about avoiding bad practices than implementing the perfect algorithm.
+
 ### EARLY FEEDBACK!
 
 ### FAIL FAST
