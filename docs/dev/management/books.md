@@ -45,3 +45,17 @@ Keynotes:
 - The lack of commitment is the third dysfunction.
 - The fourth dysfunction is the avoidance of accountability.
 - The fifth dysfunction is the inattention to results.
+
+### Good Strategy Bad Strategy: The Difference and Why It Matters
+
+[Good Strategy Bad Strategy: The Difference and Why It Matters](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239)
+
+[video](https://www.youtube.com/watch?v=4uWKEG0s9Kc)
+
+Keynotes:
+
+- A bad strategy is a list of things to do, or a set of goals.
+- A good strategy is a coherent set of actions that are designed to overcome a key challenge.
+- The diagnosis defines or explains the nature of the challenge.
+- The guiding policy is an overall approach chosen to cope with or overcome the obstacles identified in the diagnosis.
+- Coherent actions are feasible coordinated policies, resource commitments, and actions designed to carry out the guiding policy.
