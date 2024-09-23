@@ -17,6 +17,7 @@ Other things to consider:
 - you should learn ~~as much as you can~~ a bit about everything.
 - you should be able to communicate with everyone.
 - you should be able to understand the company business and how the team contributes to it.
+- instead of being obsessed with goals, be obssesed with a system that gets you there.
 
 And very importat: forget about instant rewards and be mindful of yourself!
 
