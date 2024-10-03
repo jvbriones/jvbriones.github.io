@@ -56,6 +56,6 @@ Keynotes:
 
 - A bad strategy is a list of things to do, or a set of goals.
 - A good strategy is a coherent set of actions that are designed to overcome a key challenge.
-- The diagnosis defines or explains the nature of the challenge.
-- The guiding policy is an overall approach chosen to cope with or overcome the obstacles identified in the diagnosis.
-- Coherent actions are feasible coordinated policies, resource commitments, and actions designed to carry out the guiding policy.
+- The diagnosis defines or explains the nature of the challenge. What’s holding you back from reaching your goals? A theory outlining the core challenge. This aims to pinpoint the underlying cause(s) at work. For instance, "an excessive number of tasks in progress is hindering our ability to complete any, causing us to fall further behind each sprint" could serve as an effective diagnosis.
+- The guiding policy is an overall approach chosen to cope with or overcome the obstacles identified in the diagnosis. Like the guardrails on a highway, the guiding policy directs and constrains action in certain directions without defining exactly what shall be done.
+- Coherent actions journey - A set of actions that dictates how the guiding policy will be carried out. The actions should be cohesive, meaning the allocation of resources, policies, and mutually supportive (not conflicting or operating independently).
