@@ -19,7 +19,9 @@ Other things to consider:
 - you should be able to understand the company business and how the team contributes to it.
 - instead of being obsessed with goals, be obssesed with a system that gets you there.
 - foster an environment of psychological safety and trust.
+- remove the barriers that prevent your team from doing their best work, whatever those barriers may be.
+- be a mentor, not a boss.
 
-And very importat: forget about instant rewards and be mindful of yourself!
+And very importat: forget about instant rewards and be mindful of yourself! you are now almost alone.
 
 ![roles](img/eng_roles.png "eng roles")
