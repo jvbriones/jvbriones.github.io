@@ -10,7 +10,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'jvbriones.github.io',
-  tagline: "Personal notes - WHAT'S IN IT FOR ME?",
+  tagline: "Personal notes - What's in it for me?",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
