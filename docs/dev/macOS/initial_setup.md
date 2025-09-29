@@ -14,7 +14,7 @@ Tweak a recently installed MacOS laptop.
 - dock → autohide, pinned apps, windows in icons, no recent apps, etc.
 - Set Mission control in the bottom right corner to show all open apps
 - No Siri
-- Increase keyboard keys delay (1 point). Ddisable automatic spelling corrections and Capitalize in "Text". Mouse scroll direction natural
+- Increase keyboard keys delay (1 point). Disable automatic spelling corrections and Capitalize in "Text". Mouse scroll direction natural
 - Extensions: (enable OneDrive?). In Share Menu, disable Notes and Add to Photos
 - Display, turn on Night Shift color
 - Widget sidebar with calendar and weather
@@ -24,7 +24,7 @@ Tweak a recently installed MacOS laptop.
 ### Tools and apps
 
 - [Tiles](https://freemacsoft.net/tiles/) to help resizing and placing the windows
-- Brew [https://brew.sh/index_es](https://brew.sh/index_es). Run `> brew doctor` to check if everything was ok
+- Brew [https://brew.sh](https://brew.sh). Run `> brew doctor` to check if everything was ok
 - Xcode command line tools - by running `> xcode-select --install`
 - iterm2 - by running `> brew install --cask iterm2`
   - set the profile-windows-transparency 17, text to 14 inch, dracula colors
