@@ -10,7 +10,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'jvbriones.github.io',
-  tagline: "Personal notes - What's in it for me?",
+  tagline: "Personal notes - what's in it for you?",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -109,12 +109,12 @@ const config = {
             position: 'left',
             label: 'Dev',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'guitarSidebar',
-            position: 'left',
-            label: 'Guitar',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'guitarSidebar',
+          //   position: 'left',
+          //   label: 'Guitar',
+          // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
