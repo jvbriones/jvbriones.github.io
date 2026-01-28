@@ -2,6 +2,7 @@
   "name": "jvbriones.github.io",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "yarn@4.10.3",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
