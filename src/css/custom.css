@@ -33,6 +33,25 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Gray text for main content area only (not navbar/sidebar) */
+[data-theme='dark'] .theme-doc-markdown,
+[data-theme='dark'] article.markdown {
+  color: #c8c8c8;
+}
+
+/* Keep h1 white */
+[data-theme='dark'] .theme-doc-markdown h1,
+[data-theme='dark'] article.markdown h1 {
+  color: #fff;
+}
+
+/* Gray text for code blocks (override Prism defaults) */
+[data-theme='dark'] pre.prism-code,
+[data-theme='dark'] .prism-code .token-line,
+[data-theme='dark'] .prism-code .token.plain {
+  color: #d0d0d0 !important;
+}
+
 .navbar{
   background-color: var(--ifm-footer-background-color)
 }
