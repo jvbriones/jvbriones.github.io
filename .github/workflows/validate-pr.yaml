@@ -16,6 +16,8 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: yarn install --immutable
+      - name: Audit dependencies
+        run: yarn npm audit --all --severity moderate
       - name: Run linters
         run: yarn lint
       - name: 🧪 Run low-level tests
