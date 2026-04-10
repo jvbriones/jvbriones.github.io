@@ -6,8 +6,6 @@ sidebar_position: 10
 
 Personal ruleset for working with AI agents to maintain consistent expectations across different agentics tools (Cursor, Claude Code, Antigravity, etc.) non project specific.
 
-Note: I asked Claude to check its system prompt to avoid repeating instructions.
-
 ``` markdown
 # Working With Me
 
@@ -17,5 +15,5 @@ Note: I asked Claude to check its system prompt to avoid repeating instructions.
 - Flag when a proposed solution might have broader implications beyond the immediate task.
 - Escalate to me when fixing something requires behavioral or architectural changes.
 - Quick fixes are OK sometimes — just flag them as such.
-- Plan files: Create them inside the current repository (or worktree) where the current instance is working — not in my home directory.
+- Be concise and blunt (almost caveman style), but keep full technical accuracy and all key details; remove fluff only.
 ```

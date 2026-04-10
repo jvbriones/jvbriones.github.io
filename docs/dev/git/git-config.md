@@ -47,8 +47,9 @@ git config --local user.email (check the email for the current repo)
 ### Ignore .DS_Store files globaly
 
 ``` bash
-git config --global core.excludesfile ~/.gitignore
+git config --global core.excludesfile ~/.gitignore_global
 echo .DS_Store >> ~/.gitignore
+cat >> ~/.gitignore_global <<'EOF' .DS_Store .env .env.local .env.production EOF
 ```
 
 ### Skip committing a file but getting the remote changes
