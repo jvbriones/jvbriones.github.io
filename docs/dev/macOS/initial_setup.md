@@ -40,5 +40,3 @@ Tweak a recently installed MacOS laptop.
 - Install [oh-my-zsh](https://ohmyz.sh/)
   - firstly run `> brew install wget`
   - install jbriones theme 🤘 _(./ohmyzsh/jbriones.zsh-theme)_ and export the `.zshrc` config file
-- Install [Visual Studio Code](https://code.visualstudio.com/download)
-- 
