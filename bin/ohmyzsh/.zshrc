@@ -73,6 +73,10 @@ npx() { _load_nvm; npx "$@"; }
 yarn() { _load_nvm; yarn "$@"; }
 pnpm() { _load_nvm; pnpm "$@"; }
 
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+# export PATH="/Users/jbriones/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
 # -----------------------------------------------------------------------------
 # SDKMAN (THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!)
 # -----------------------------------------------------------------------------
