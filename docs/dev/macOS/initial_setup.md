@@ -19,10 +19,16 @@ Tweak a recently installed MacOS laptop.
 - Widget sidebar with calendar, weather, screen time, etc.
 - Improve dock autohide delay: `> defaults write com.apple.Dock autohide-delay -float 0.0001; killall Dock`
   - to restore it: `> defaults delete com.apple.Dock autohide-delay; killall Dock**`
-
-### Tools and apps
-
 - [Tiles](https://freemacsoft.net/tiles/) to help resizing windows. Disable Hotkeys.
+
+### Dev
+
+Homebrew for system/dev tools.
+GitHub CLI + SSH for GitHub auth.
+SSH commit signing instead of GPG unless you specifically need GPG.
+nvm for Node versions, Corepack for Yarn v4 / pnpm, not global yarn installs.
+Per-repo defaults via .nvmrc and packageManager.
+
 - Brew [https://brew.sh](https://brew.sh). Run `> brew doctor` to check if everything was ok
 - Xcode command line tools - by running `> xcode-select --install`
 - iterm2 - by running `> brew install --cask iterm2`
