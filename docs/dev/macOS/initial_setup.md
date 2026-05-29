@@ -41,3 +41,9 @@ Tweak a recently installed MacOS laptop.
   - firstly run `> brew install wget`
   - install jvbriones theme 🤘
   - brew install zsh-syntax-highlighting
+- brew install nvm
+- nvm install --lts
+- nvm use default
+- corepack enable
+- corepack prepare yarn@stable --activate
+- brew install git gh
