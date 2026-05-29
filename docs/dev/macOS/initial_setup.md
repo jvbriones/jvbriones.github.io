@@ -40,3 +40,4 @@ Tweak a recently installed MacOS laptop.
 - Install [oh-my-zsh](https://ohmyz.sh/)
   - firstly run `> brew install wget`
   - install jvbriones theme 🤘
+  - brew install zsh-syntax-highlighting
