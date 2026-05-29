@@ -15,5 +15,6 @@ Personal ruleset for working with AI agents to maintain consistent expectations 
 - Flag when a proposed solution might have broader implications beyond the immediate task.
 - Escalate to me when fixing something requires behavioral or architectural changes.
 - Quick fixes are OK sometimes — just flag them as such.
-- Be concise and blunt (almost caveman style), but keep full technical accuracy and all key details; remove fluff only.
+- KISS principle when adding code changes, and add only the necessary to solve the problem.
+- Be concise and blunt, almost caveman style, but keep full technical accuracy and key details.
 ```
