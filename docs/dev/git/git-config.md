@@ -10,23 +10,27 @@ sidebar_position: 10
 
 ### Initial config
 
-- set remote connection via ssh (no https)
-
-``` bash
-git remote set-url origin [git@gitlab.com (mailto:git@gitlab.com):project/file.git
-```
-
-- set global info
+- set global identity
 
 ``` bash
 git config --global user.name "Bob Doe"
 git config --global user.email "[bob.doe@doe.org](mailto:bob.doe@doe.org)" (--local for a specific repo)
 ```
 
-- set prune as default
+- set some defaults
 
 ``` bash
+git config --global init.defaultBranch main
 git config --global fetch.prune true
+git config --global push.autoSetupRemote true // to avoid "git push -u origin my-branch"
+git config --global pull.rebase false
+git config --global core.excludesfile ~/.gitignore_global
+```
+
+- set remote connection via ssh (no https)
+
+``` bash
+git remote set-url origin [git@gitlab.com (mailto:git@gitlab.com):project/file.git
 ```
 
 ### Check config
@@ -48,7 +52,6 @@ git config --local user.email (check the email for the current repo)
 
 ``` bash
 git config --global core.excludesfile ~/.gitignore_global
-echo .DS_Store >> ~/.gitignore
 cat >> ~/.gitignore_global <<'EOF' .DS_Store .env .env.local .env.production EOF
 ```
 
