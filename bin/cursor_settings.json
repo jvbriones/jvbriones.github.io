@@ -1,0 +1,13 @@
+{
+    "editor.fontSize": 13,
+    "files.autoSave": "afterDelay",
+    "cursor.composer.editorConversationDensity": "compact-ungrouped",
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "editor.tabSize": 4,
+    "cursor.composer.conversationDensity": "compact-ungrouped",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "terminal.integrated.environmentChangesRelaunch": true
+}
