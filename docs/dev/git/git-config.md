@@ -1,32 +1,41 @@
 ---
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Git config
 
-### Sign commits
+### SSH keys
 
-[docu](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)
+Created a new SSH key for the new machine to configure Git to use it for both GitHub authentication and commit signing, so we can securely push code and produce verified signed commits.
+
 
 ### Initial config
 
-- set remote connection via ssh (no https)
-
-``` bash
-git remote set-url origin [git@gitlab.com (mailto:git@gitlab.com):project/file.git
-```
-
-- set global info
+- set global identity
 
 ``` bash
 git config --global user.name "Bob Doe"
 git config --global user.email "[bob.doe@doe.org](mailto:bob.doe@doe.org)" (--local for a specific repo)
 ```
 
-- set prune as default
+- set some defaults
 
 ``` bash
+git config --global init.defaultBranch main
 git config --global fetch.prune true
+git config --global push.autoSetupRemote true // to avoid "git push -u origin my-branch"
+git config --global pull.rebase false
+git config --global core.excludesfile ~/.gitignore_global
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true
+git config --global tag.gpgsign true
+```
+
+- set remote connection via ssh (no https)
+
+``` bash
+git remote set-url origin [git@gitlab.com (mailto:git@gitlab.com):project/file.git
 ```
 
 ### Check config
@@ -48,7 +57,6 @@ git config --local user.email (check the email for the current repo)
 
 ``` bash
 git config --global core.excludesfile ~/.gitignore_global
-echo .DS_Store >> ~/.gitignore
 cat >> ~/.gitignore_global <<'EOF' .DS_Store .env .env.local .env.production EOF
 ```
 
