@@ -4,9 +4,10 @@ sidebar_position: 10
 
 # Git config
 
-### Sign commits
+### SSH keys
 
-[docu](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)
+Created a new SSH key for the new machine to configure Git to use it for both GitHub authentication and commit signing, so we can securely push code and produce verified signed commits.
+
 
 ### Initial config
 
@@ -25,6 +26,10 @@ git config --global fetch.prune true
 git config --global push.autoSetupRemote true // to avoid "git push -u origin my-branch"
 git config --global pull.rebase false
 git config --global core.excludesfile ~/.gitignore_global
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true
+git config --global tag.gpgsign true
 ```
 
 - set remote connection via ssh (no https)
