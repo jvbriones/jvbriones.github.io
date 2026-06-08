@@ -47,6 +47,7 @@ Per-repo defaults via .nvmrc and packageManager.
   - firstly run `> brew install wget`
   - install jvbriones theme 🤘
   - brew install zsh-syntax-highlighting
+  - brew install zsh-autosuggestions
 - brew install nvm
 - nvm install --lts
 - nvm use default

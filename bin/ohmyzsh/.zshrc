@@ -17,6 +17,7 @@ ZSH_THEME="jvbriones"
 
 # Load zsh-syntax-highlighting (before oh-my-zsh)
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
