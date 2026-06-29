@@ -33,8 +33,9 @@ export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 # export JAVA_HOME=""
 
 # -----------------------------------------------------------------------------
-# Docker Aliases
+# Aliases
 # -----------------------------------------------------------------------------
+alias npm="pnpm"
 alias dc="docker compose"
 alias dc-d="docker compose down --remove-orphans"
 alias dc-dv="docker compose down --remove-orphans --volumes"
