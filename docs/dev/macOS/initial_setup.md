@@ -48,6 +48,7 @@ Per-repo defaults via .nvmrc and packageManager.
   - install jvbriones theme 🤘
   - brew install zsh-syntax-highlighting
   - brew install zsh-autosuggestions
+- brew install pnpm
 - brew install nvm
 - nvm install --lts
 - nvm use default
