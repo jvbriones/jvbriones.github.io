@@ -3,6 +3,11 @@
 # =============================================================================
 # Apple Silicon: /opt/homebrew | Intel: /usr/local
 
+
+# Deduplicate PATH entries
+typeset -U PATH
+
+
 # -----------------------------------------------------------------------------
 # Homebrew
 # -----------------------------------------------------------------------------
@@ -24,7 +29,9 @@ source $ZSH/oh-my-zsh.sh
 # -----------------------------------------------------------------------------
 # PATH Configuration
 # -----------------------------------------------------------------------------
-export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PNPM_HOME:$PATH"
+
 
 # -----------------------------------------------------------------------------
 # Android / Java Configuration
@@ -35,7 +42,6 @@ export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 # -----------------------------------------------------------------------------
 # Aliases
 # -----------------------------------------------------------------------------
-alias npm="pnpm"
 alias dc="docker compose"
 alias dc-d="docker compose down --remove-orphans"
 alias dc-dv="docker compose down --remove-orphans --volumes"
@@ -64,12 +70,12 @@ _load_nvm() {
   fi
 }
 
-nvm() { _load_nvm; nvm "$@"; }
-node() { _load_nvm; node "$@"; }
-npm() { _load_nvm; npm "$@"; }
-npx() { _load_nvm; npx "$@"; }
-yarn() { _load_nvm; yarn "$@"; }
-pnpm() { _load_nvm; pnpm "$@"; }
+nvm()  { _load_nvm && command nvm "$@"; }
+node() { _load_nvm && command node "$@"; }
+npm()  { _load_nvm && command npm "$@"; }
+npx()  { _load_nvm && command npx "$@"; }
+yarn() { _load_nvm && command yarn "$@"; }
+pnpm() { _load_nvm && command pnpm "$@"; }
 
 # -----------------------------------------------------------------------------
 # SDKMAN (THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!)
