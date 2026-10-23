@@ -12,7 +12,7 @@ Open a new PR to trigger the CI/CD pipeline.
 ### Local installation
 
 ``` bash
-nvm use 20
+nvm use
 yarn
 ```
 
