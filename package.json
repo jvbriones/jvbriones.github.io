@@ -2,7 +2,7 @@
   "name": "jvbriones.github.io",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.18.1",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -16,6 +16,11 @@
     "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
     "prettier": "prettier --write '{blog,docs,src,static}/**/*.{md,mdx,ts,js,tsx,jsx,json,yaml}'",
     "test:e2e": "xvfb-run yarn playwright test tests/e2e"
+  },
+  "resolutions": {
+    "serialize-javascript": "7.1.4",
+    "tinypool": "2.2.0",
+    "uuid": "11.1.1"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
