@@ -17,6 +17,12 @@
     "prettier": "prettier --write '{blog,docs,src,static}/**/*.{md,mdx,ts,js,tsx,jsx,json,yaml}'",
     "test:e2e": "xvfb-run yarn playwright test tests/e2e"
   },
+  "resolutions": {
+    "deepmerge": "4.1.2",
+    "serialize-javascript": "7.1.4",
+    "tinypool": "2.2.0",
+    "uuid": "11.1.1"
+  },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
